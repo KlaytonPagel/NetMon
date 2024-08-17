@@ -1,6 +1,6 @@
 [email_notifications]
-sender_email        = pagelklayton@gmail.com
-recipient_email     = pagelklayton@gmail.com
+sender_email        = email@example.com
+recipient_email     = email@example.com
 smtp_server         = smtp.gmail.com
 port                = 465
 default_notify      = True
