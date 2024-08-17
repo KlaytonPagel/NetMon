@@ -1,0 +1,14 @@
+[email_notifications]
+sender_email        = pagelklayton@gmail.com
+recipient_email     = pagelklayton@gmail.com
+smtp_server         = smtp.gmail.com
+port                = 465
+default_notify      = True
+new_device_notify   = True
+
+[json]
+json_filepath       = netmon.json
+
+[monitoring]
+check_delay_seconds = 15
+ip_list             = ["192.168.1.0/24", "192.168.2.1", "192.168.2.5"]

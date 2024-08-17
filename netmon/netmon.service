@@ -1,0 +1,10 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=python3 /opt/netmon/main.py
+Restart=always
+WorkingDirectory=/opt/netmon
+
+[Install]
+WantedBy=multi-user.target
