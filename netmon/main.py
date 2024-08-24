@@ -92,6 +92,7 @@ class NetworkMonitor:
         else:
             raise ValueError(f"Unsupported platform {platform.system()}")
         data = ""  # used to aggregate responses
+        result = False
         output = Popen(ping_command, stdout=PIPE, encoding="utf-8")  # runs ping command
 
         # parse ping response
